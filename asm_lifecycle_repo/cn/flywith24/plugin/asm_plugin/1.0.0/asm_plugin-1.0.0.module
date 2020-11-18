@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.flywith24.plugin",
+    "module": "asm_plugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "na5e67qll5hwphli4kdf2k47qi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "asm_plugin-1.0.0.jar",
+          "url": "asm_plugin-1.0.0.jar",
+          "size": 11370,
+          "sha512": "02839885b65d4df766a19548c32a39dd296c1f9f09979c0f4b4aee3bc1ff4e392e973f37a88325457238e8b8c8a81527a4d0386e76473cbd3df0e179de118d8d",
+          "sha256": "57fff0510ec53f94030a76e6ed84e2d9c6f152a1c8ca6c622ebb25742d340282",
+          "sha1": "8b3776ecab2563afbbefa98a663e6aadbde7454c",
+          "md5": "de88b686b9026e6dca5b0b318f569f03"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asm_plugin-1.0.0.jar",
+          "url": "asm_plugin-1.0.0.jar",
+          "size": 11370,
+          "sha512": "02839885b65d4df766a19548c32a39dd296c1f9f09979c0f4b4aee3bc1ff4e392e973f37a88325457238e8b8c8a81527a4d0386e76473cbd3df0e179de118d8d",
+          "sha256": "57fff0510ec53f94030a76e6ed84e2d9c6f152a1c8ca6c622ebb25742d340282",
+          "sha1": "8b3776ecab2563afbbefa98a663e6aadbde7454c",
+          "md5": "de88b686b9026e6dca5b0b318f569f03"
+        }
+      ]
+    }
+  ]
+}
